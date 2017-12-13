@@ -1,0 +1,14 @@
+{
+    "Book": {
+        "dataSource": "db",
+    },
+    "Page": {
+        "dataSource": "db"
+    },
+    "Author": {
+        "dataSource": "db",
+    },
+    "Publisher": {
+        "dataSource": "db"
+    }
+}

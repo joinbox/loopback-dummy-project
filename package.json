@@ -1,0 +1,12 @@
+{
+  "name": "loopback-dummy-project",
+  "version": "1.0.0",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joinboxloopback-dummy-project.git"
+  },
+  "description": "Dummy Book project for Loopback"
+}
