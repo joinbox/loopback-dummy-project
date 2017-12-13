@@ -6,7 +6,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:joinboxloopback-dummy-project.git"
+    "url": "git@github.com:joinbox/loopback-dummy-project.git"
   },
-  "description": "Dummy Book project for Loopback"
+  "description": "Dummy Book Project for Loopback"
 }

@@ -4,6 +4,7 @@ const authorData = require('./authorData');
 
 class BookDataCreator {
     constructor(models) {
+        debugger;
         this.Book = models.Book;
         this.Publisher = models.Publisher;
         this.Page = models.Page;
@@ -57,5 +58,6 @@ class BookDataCreator {
 
 module.exports = function(models) {
     const creator = new BookDataCreator(models);
+
     return creator.createAndLinkBookData();
 };

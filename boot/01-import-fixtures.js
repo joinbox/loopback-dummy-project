@@ -1,5 +1,6 @@
-const createAndLinkBookData = require('./fixtures/createAndLinkBookData');
+const createAndLinkBookData = require('../fixtures/createAndLinkBookData');
 
-module.exports = function(server) {
-    return createAndLinkBookData(server.app.models);
+module.exports = async function(app, callback) {
+    await createAndLinkBookData(app.models);
+    callback();
 };
